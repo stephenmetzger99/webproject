@@ -19,24 +19,15 @@ h2 {
     width: auto;
     margin-left: 10px;
     font-weight: normal;
-    left: 50%;
 }
 
-#about {
+div {
     height: auto;
     width: 500px;
     left: 50%;
     font-weight: normal;
     padding: 10px;
     margin: 20px;
-}
-
-#navbar{
-    height: auto;
-    width: 50%;
-    padding: 20px; 
-    float: left;
-    
 }
 
 
@@ -80,12 +71,14 @@ h2 {
 
 /* Style all font awesome icons */
 .fa {
-    padding: 20px;
-    font-size: 50px;
+    padding: 10px;
+    font-size: 100px;
     width: 25px;
     text-align: center;
     text-decoration: none;
-    float:right;
+    float:left;
+    margin: 10px;
+    
 }
 
 /* hover effect  */
