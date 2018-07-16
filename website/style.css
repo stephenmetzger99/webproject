@@ -3,52 +3,112 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
-    font-family: sans-serif;
 }
 
 h1 {
     font-family: sans-serif;
     font-weight: normal;
-    float: left;
-    margin-right: 30px;
-    
+   
 }
 
 h2 {
     font-family: sans-serif;
-    width: auto;
-    margin-left: 10px;
     font-weight: normal;
-    left: 50%;
 }
 
-#content1 {
-    height: auto;
-    width: 500px;
-    left: 50%;
+h3 {
+    font-family: sans-serif;
     font-weight: normal;
-    padding: 10px;
-    margin: 20px;
-    margin-right: 50%;
-}
-#content2{
-    height: auto;
-    width: 500px;
-    font-weight: normal;
-    float: right;
-    padding: 10px;
-    margin-left: 50%;
-    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
 }
 
-#navbar{
-    height: auto;
-    width: 50%;
-    padding: 20px; 
+h4 {
+    font-family: sans-serif;
+    font-weight: 10;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    font-size: 300%;
+    position: relative;
+    top: 30%;
+    margin-left: 20;
+}
+
+#content{
+    width: 320px;
     float: left;
+    margin: 10px;
+    height: auto;
+    background-position: bottom;
+}
+#figure{
+    display: block;
+    float: right;
+    font-family: cursive;
+    width: 202px;
+    height: 170px;
+    background-color: #e7e3d8;
+    margin: 0px;
+    padding: 9px;
+    text-align: left;
+}
+
+#container{
+    height: auto;
+    padding: 20px;
+    align-content: center;
     
 }
 
+
+#textbox {
+    height: auto;
+    width: auto;
+    font-weight: normal;
+    font-size: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-indent: 50px;
+    line-height: 40px;
+    align-content: center;
+
+}
+
+#headerimg2{
+    background-image: url(pics/javaspacegame.png);
+    background-repeat:no-repeat;
+    background-position: top;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10%;
+    
+}
+#headerimg{
+    background-image: url(pics/fsaecar.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 50%;
+    margin-bottom: 10%;
+}
+#navbar{
+    height: auto;
+    width: 34%;
+    padding: 20px; 
+    float: left;  
+}
+
+#social{
+    height: auto;
+    width: 30%;
+    float: right;
+    margin-top: 10px
+}
+
+#header{
+    background-color: white; 
+}
 
 
 .btn {
@@ -74,23 +134,24 @@ h2 {
 
 .nav {
     font-family: serif;
+    font-size: 50%;
     color: #000;
+    letter-spacing: 1px;
     margin-top: 20px;
     font-size: 80%;
     padding: 2px 15px;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none; 
-   
 }
 
 .nav:hover{
-    color: lightgray;
+    opacity: 0.7;
 }
 
 /* Style all font awesome icons */
 .fa {
-    padding: 20px;
+    padding: 15px;
     font-size: 50px;
     width: 25px;
     text-align: center;
@@ -107,21 +168,21 @@ h2 {
 
 /* Facebook */
 .fa-facebook {
-    background: #fff;
+    background: white;
     color: lightgray;
 }
 
 /* Twitter */
 .fa-twitter {
-    background: #fff;
+    background: white;
     color: lightgray;
 }
 
 .fa-instagram {
-  background: #fff;
+  background:     white;
   color: lightgray;
 }
 .fa-linkedin{
-  background: #fff;
+  background: white;
   color: lightgray;
 }
