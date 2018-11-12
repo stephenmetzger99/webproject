@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -8,7 +9,7 @@ html, body {
 h1 {
     font-family: sans-serif;
     font-weight: normal;
-   
+
 }
 
 h2 {
@@ -35,6 +36,7 @@ h4 {
     top: 30%;
     margin-left: 20;
 }
+
 h5 {
     font-family: sans-serif;
     font-weight: 10;
@@ -47,20 +49,21 @@ h5 {
     margin-left: 20;
 }
 
-#content{
+#content {
     width: 320px;
     float: left;
     margin: 10px;
     height: auto;
     background-position: bottom;
 }
-#container{
+
+#container {
     width: 100%;
     height: auto;
-    
+
 }
 
-#figure{
+#figure {
     display: block;
     float: right;
     font-family: cursive;
@@ -94,11 +97,11 @@ div.desc {
     text-align: center;
 }
 
-#container{
+#container {
     height: auto;
     padding: 20px;
     align-content: center;
-    
+
 }
 
 
@@ -114,44 +117,47 @@ div.desc {
     align-content: center;
 }
 
-#headerimg1{
-    background-repeat:no-repeat;
+#newtextbox {
+    border-style: double;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+    align-content: center;
+    padding: 5%;
+}
+
+#headerimg1 {
+    background-repeat: no-repeat;
     background-position: center;
     height: 50%;
     width: 100%;
-    margin-bottom: 10%;
-    
 }
 
-#headerimg2{
-    background-image: url(pics/javaspacegame.png);
-    background-repeat:no-repeat;
-    background-position: top;
-    height: 100%;
-    width: 100%;
-    margin-bottom: 10%;
-    
-}
 
-#navbar{
+#navbar {
     height: auto;
     width: 34%;
-    padding: 20px; 
-    float: left;  
+    padding: 20px;
+    float: left;
 }
 
-#social{
+#social {
     height: auto;
     width: 30%;
     float: right;
     margin-top: 10px
 }
 
-#header{
-    background-color: white; 
+#header {
+    background-color: white;
 }
 
-#footer{
+#footer {
     margin: 50px;
     color: gray;
     text-align: center;
@@ -167,17 +173,17 @@ div.desc {
     padding: 10px 25px;
     border: solid #000 2px;
     text-transform: uppercase;
-    text-decoration: none; 
+    text-decoration: none;
     margin: 50px;
-   
+
 }
 
-.btn:hover{
+.btn:hover {
     border: solid #000 3px;
     color: #fff;
     fill: #000;
     background-color: #000;
-    
+
 }
 
 .nav {
@@ -190,10 +196,10 @@ div.desc {
     padding: 2px 15px;
     text-transform: uppercase;
     text-align: center;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
-.nav:hover{
+.nav:hover {
     opacity: 0.7;
 }
 
@@ -204,7 +210,7 @@ div.desc {
     width: 25px;
     text-align: center;
     text-decoration: none;
-    float:right;
+    float: right;
 }
 
 /* hover effect  */
@@ -227,10 +233,11 @@ div.desc {
 }
 
 .fa-instagram {
-  background:     white;
-  color: lightgray;
+    background: white;
+    color: lightgray;
 }
-.fa-linkedin{
-  background: white;
-  color: lightgray;
+
+.fa-linkedin {
+    background: white;
+    color: lightgray;
 }
