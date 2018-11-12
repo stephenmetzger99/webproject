@@ -35,6 +35,17 @@ h4 {
     top: 30%;
     margin-left: 20;
 }
+h5 {
+    font-family: sans-serif;
+    font-weight: 10;
+    text-align: center;
+    text-align: left;
+    color: white;
+    font-size: 300%;
+    position: relative;
+    top: 30%;
+    margin-left: 20;
+}
 
 #content{
     width: 320px;
@@ -62,7 +73,7 @@ h4 {
 }
 
 div.gallery {
-    margin: 50px;
+    margin: 30px;
     grid-auto-flow: column;
     border: 1px solid #ccc;
     width: 180px;
@@ -104,7 +115,6 @@ div.desc {
 }
 
 #headerimg1{
-    background-image: url(pics/fsaecar.jpg);
     background-repeat:no-repeat;
     background-position: center;
     height: 50%;
