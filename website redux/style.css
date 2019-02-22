@@ -4,7 +4,8 @@ html{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-},
+   height: 100%;
+}
 body {
     margin: 0;
     padding: 0;
@@ -16,6 +17,11 @@ body {
 @font-face {
     font-family: Aileron-Light;
     src: url("fonts/Aileron-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Aileron-Regular;
+    src: url("fonts/Aileron-Regular.ttf") format("truetype");
 }
 
 h1 {
@@ -45,7 +51,7 @@ h4 {
     font-weight: normal;
     text-align: center;
     color: white;
-    font-size: 300%;
+    font-size: 280%;
     position: relative;
     top: 40%;
     text-transform: uppercase;
@@ -54,13 +60,13 @@ h4 {
 
 h5 {
     font-family: sans-serif;
-    font-weight: 10;
+    font-weight: normal;
     text-align: left;
     color: white;
     font-size: 300%;
     position: relative;
     top: 30%;
-    margin-left: 20;
+    margin-left: 20px;
 }
 
 Re #figure {
@@ -95,6 +101,7 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+    color: white;
 }
 
 #container {
@@ -120,21 +127,35 @@ div.desc {
 
 #newtextbox {
     font-family: sans-serif;
-    color: white;
+    color: black;
+    background-color: white;
     height: auto;
-    width: auto;
+    width:auto;
     text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    margin-top: 5%;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 50px;
-    align-content: center;
     padding: 5%;
     padding-left: 15%;
     padding-right: 15%;
+    
+}
+
+#btncontainer {
+    text-align: center;
+    align-content: center;    
+}
+
+#siteheader {
+    font-family: "Aileron-Light";
+    color: white;
+    height: 100%;
+    width: auto;
+    text-align: left;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 10px;
+    align-content: center;
 }
 
 #headerimg1 {
@@ -150,6 +171,9 @@ div.desc {
     width: 34%;
     padding: 20px;
     float: left;
+    font-family: Aileron-Light;
+    letter-spacing: 5px;
+    margin-left: 10%;
 }
 
 #social {
@@ -163,18 +187,15 @@ div.desc {
     background-color: white;
 }
 
-#footer {
-    margin: 50px;
-    color: gray;
-    text-align: center;
-    width: 100%;
-}
+
 
 
 .btn {
     border-radius: 1px;
     font-family: "Aileron-Light";
     color: white;
+    background-color: #000;
+
     font-size: 80%;
     padding: 10px 25px;
     border: solid #000 2px;
@@ -182,6 +203,7 @@ div.desc {
     text-decoration: none;
     margin: 50px;
     letter-spacing: 3px;
+    opacity: 0.5;
 
 }
 
@@ -251,3 +273,12 @@ div.desc {
 }
 
 
+#footer {
+    text-align: center;
+    padding: 2%;
+    color: lightgray;
+    font-family: "Aileron-Regular";
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
