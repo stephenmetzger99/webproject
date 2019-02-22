@@ -1,11 +1,4 @@
-html{
-  background: url(pics/background1-min.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   height: 100%;
-}
+html,
 body {
     margin: 0;
     padding: 0;
@@ -24,12 +17,15 @@ body {
     src: url("fonts/Aileron-Regular.ttf") format("truetype");
 }
 
+
 h1 {
     font-family: sans-serif;
+    color:black;
     font-weight: normal;
-
+    text-transform: uppercase;
+    font-size: 90%;
+    letter-spacing: 4px;
 }
-
 h2 {
     font-family: sans-serif;
     font-weight: normal;
@@ -43,6 +39,7 @@ h3 {
     font-family: sans-serif;
     font-weight: normal;
     text-align: center;
+    align-content: center;
     font-size: 30px;
 }
 
@@ -58,16 +55,7 @@ h4 {
     letter-spacing: 6px;
 }
 
-h5 {
-    font-family: sans-serif;
-    font-weight: normal;
-    text-align: left;
-    color: white;
-    font-size: 300%;
-    position: relative;
-    top: 30%;
-    margin-left: 20px;
-}
+
 
 Re #figure {
     display: block;
@@ -148,6 +136,12 @@ div.desc {
 
 #siteheader {
     font-family: "Aileron-Light";
+    background: url(pics/background1-min.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   height: 100%;
     color: white;
     height: 100%;
     width: auto;

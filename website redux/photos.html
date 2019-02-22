@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <title>Stephen Metzger</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+
+<body>
+
+    <center>
+
+        <div id="navbar">
+            <a class="nav" style="color:black;" href="index.html">Home</a>
+            <a class="nav" style="color:black;" href="projects.html">Projects</a>
+            <a class="nav" style="color:black;" href="gallery.html">Photos</a>
+        </div>
+
+        <a href="https://www.facebook.com/stephenmetzger99" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/smetzger_?lang=en" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/stephen.metzger/" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/stephen-metzger-0b287513b/" class="fa fa-linkedin"></a>
+
+        <br><br><br>
+        <script type="text/javascript">
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = x.length };
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex - 1].style.display = "block";
+            }
+
+        </script>
+        <div style="height: 100%">
+            <img class="mySlides" src="pics/wiring.jpg" style="height: 10%; width: auto">
+            <img class="mySlides" src="pics/wheel.jpg" style="height: 10%; width: auto">
+            <img class="mySlides" src="pics/fsae/projects/2019/wheel/IMG_8703.jpg" style="height: 10%; width: auto">
+            <img class="mySlides" src="pics/fsae/projects/2019/wheel/IMG_8704.JPG" style="height: 10%; width: auto">
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+        
+
+
+    
+
+        <!--
+        <div id="newtextbox" style="margin-top: 0%;">
+            <h2>Concept</h2>
+            <p>The game increments through rounds of enemies based on how long you've been in the game. Every second your score increases. The player must be weary of alien ships, flying lasers, and asteroids. Killed enemies will drop health points to restore ship health. Eventually, an alien kingship will spawn and you must defeat it. </p>
+
+            <p>Eventually, I would like to implement ship upgrades, saving, and score tracking, as well as a more fleshed out navigation system.</p>
+
+            <h2>Sprites</h2>
+            <figure style="font-family: sans-serif; font-size: 70%;">
+                <img src="pics/spacegame/ships.png" style="width:20%;height:auto;margin: 10px;">
+                <figcaption><i>The player and enemy space ships</i></figcaption>
+            </figure>
+
+            <figure style="font-family: sans-serif; font-size: 70%">
+                <img src="pics/spacegame/kingship.png" style="width:40%;height:auto;margin: 10px;">
+                <figcaption><i>Enemy boss ship</i></figcaption>
+
+            </figure>
+            -->
+        </div>
+
+
+
+
+
+
+
+
+    </center>
+
+</body>
+
+    <div id="footer">
+        <p>Contact me at stephenmetzger99@gmail.com. </p>
+    </div>
+
+
+
+
+
+
+</html>
