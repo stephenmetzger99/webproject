@@ -1,9 +1,16 @@
-html,
+html{
+  background: url(pics/background1-min.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+},
 body {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
+
 }
 
 @font-face {
@@ -112,8 +119,8 @@ div.desc {
 }
 
 #newtextbox {
-    border-style: double;
     font-family: sans-serif;
+    color: white;
     height: auto;
     width: auto;
     text-align: left;
@@ -165,15 +172,16 @@ div.desc {
 
 
 .btn {
-    border-radius: 4px;
-    font-family: sans-serif;
-    color: #000;
+    border-radius: 1px;
+    font-family: "Aileron-Light";
+    color: white;
     font-size: 80%;
     padding: 10px 25px;
     border: solid #000 2px;
     text-transform: uppercase;
     text-decoration: none;
     margin: 50px;
+    letter-spacing: 3px;
 
 }
 
@@ -182,13 +190,14 @@ div.desc {
     color: #fff;
     fill: #000;
     background-color: #000;
+    opacity: 0.9;
 
 }
 
 .nav {
-    font-family: serif;
+    font-family: "Aileron-Light";
     font-size: 50%;
-    color: #000;
+    color: white;
     letter-spacing: 1px;
     margin-top: 20px;
     font-size: 80%;
@@ -221,22 +230,24 @@ div.desc {
 
 /* Facebook */
 .fa-facebook {
-    background: white;
+    background: none;
     color: lightgray;
 }
 
 /* Twitter */
 .fa-twitter {
-    background: white;
+    background: none;
     color: lightgray;
 }
 
 .fa-instagram {
-    background: white;
+    background: none;
     color: lightgray;
 }
 
 .fa-linkedin {
-    background: white;
+    background: none;
     color: lightgray;
 }
+
+
