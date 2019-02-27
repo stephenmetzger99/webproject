@@ -1,54 +1,168 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
-    font-family: sans-serif;
 }
 
 h1 {
     font-family: sans-serif;
     font-weight: normal;
-    float: left;
-    margin-right: 30px;
-    
+
 }
 
 h2 {
     font-family: sans-serif;
-    width: auto;
-    margin-left: 10px;
     font-weight: normal;
-    left: 50%;
 }
 
-#content1 {
-    height: auto;
-    width: 500px;
-    left: 50%;
+h3 {
+    font-family: sans-serif;
     font-weight: normal;
-    padding: 10px;
-    margin: 20px;
-    margin-right: 50%;
-}
-#content2{
-    height: auto;
-    width: 500px;
-    font-weight: normal;
-    float: right;
-    padding: 10px;
-    margin-left: 50%;
-    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
 }
 
-#navbar{
-    height: auto;
-    width: 50%;
-    padding: 20px; 
+h4 {
+    font-family: sans-serif;
+    font-weight: 10;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    font-size: 300%;
+    position: relative;
+    top: 30%;
+    margin-left: 20;
+}
+
+h5 {
+    font-family: sans-serif;
+    font-weight: 10;
+    text-align: center;
+    text-align: left;
+    color: white;
+    font-size: 300%;
+    position: relative;
+    top: 30%;
+    margin-left: 20;
+}
+
+#content {
+    width: 320px;
     float: left;
-    
+    margin: 10px;
+    height: auto;
+    background-position: bottom;
 }
 
+#container {
+    width: 100%;
+    height: auto;
+
+}
+
+#figure {
+    display: block;
+    float: right;
+    font-family: cursive;
+    width: 202px;
+    height: 170px;
+    background-color: #e7e3d8;
+    margin: 0px;
+    padding: 9px;
+    text-align: left;
+}
+
+div.gallery {
+    margin: 30px;
+    grid-auto-flow: column;
+    border: 1px solid #ccc;
+    width: 180px;
+    float: left;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#container {
+    height: auto;
+    padding: 20px;
+    align-content: center;
+
+}
+
+
+#textbox {
+    height: auto;
+    width: auto;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-indent: 50px;
+    line-height: 40px;
+    align-content: center;
+}
+
+#newtextbox {
+    border-style: double;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+    align-content: center;
+    padding: 5%;
+}
+
+#headerimg1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+    width: 100%;
+}
+
+
+#navbar {
+    height: auto;
+    width: 34%;
+    padding: 20px;
+    float: left;
+}
+
+#social {
+    height: auto;
+    width: 30%;
+    float: right;
+    margin-top: 10px
+}
+
+#header {
+    background-color: white;
+}
+
+#footer {
+    margin: 50px;
+    color: gray;
+    text-align: center;
+    width: 100%;
+}
 
 
 .btn {
@@ -59,43 +173,44 @@ h2 {
     padding: 10px 25px;
     border: solid #000 2px;
     text-transform: uppercase;
-    text-decoration: none; 
+    text-decoration: none;
     margin: 50px;
-   
+
 }
 
-.btn:hover{
+.btn:hover {
     border: solid #000 3px;
     color: #fff;
     fill: #000;
     background-color: #000;
-    
+
 }
 
 .nav {
     font-family: serif;
+    font-size: 50%;
     color: #000;
+    letter-spacing: 1px;
     margin-top: 20px;
     font-size: 80%;
     padding: 2px 15px;
     text-transform: uppercase;
     text-align: center;
-    text-decoration: none; 
-   
+    text-decoration: none;
 }
 
-.nav:hover{
-    color: lightgray;
+.nav:hover {
+    opacity: 0.7;
 }
 
 /* Style all font awesome icons */
 .fa {
-    padding: 20px;
+    padding: 15px;
     font-size: 50px;
     width: 25px;
     text-align: center;
     text-decoration: none;
-    float:right;
+    float: right;
 }
 
 /* hover effect  */
@@ -107,21 +222,22 @@ h2 {
 
 /* Facebook */
 .fa-facebook {
-    background: #fff;
+    background: white;
     color: lightgray;
 }
 
 /* Twitter */
 .fa-twitter {
-    background: #fff;
+    background: white;
     color: lightgray;
 }
 
 .fa-instagram {
-  background: #fff;
-  color: lightgray;
+    background: white;
+    color: lightgray;
 }
-.fa-linkedin{
-  background: #fff;
-  color: lightgray;
+
+.fa-linkedin {
+    background: white;
+    color: lightgray;
 }
